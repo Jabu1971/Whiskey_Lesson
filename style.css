@@ -1,0 +1,129 @@
+
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.heading-clear{
+  position:relative;
+  top:30px;
+}
+
+.reducer{
+  height:100px;
+}
+
+.space{
+  height:550px;
+  visibility: hidden;
+}
+
+.slider1,.slider2,.slider3,.slider4{
+  position:absolute;
+  width:100%;
+  height:100%;
+  margin: 0;
+
+}
+
+.slider1{
+  background-image:url("whisky1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation:slide1 10s infinite;
+  
+
+}
+
+.slider2{
+  background-image:url("whisky2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation:slide2 10s infinite;
+
+}
+
+.slider3{
+  background-image:url("whisky3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation:slide3 10s infinite;
+
+}
+
+.slider4{
+  background-image:url("whisky4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation:slide4 10s infinite;
+
+}
+
+.slider4{
+  background-image:url("whisky3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation:slide4 10s infinite;
+
+}
+
+.slider5{
+  background-image:url("whisky2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation:slide5 10s infinite;
+
+}
+
+.slider6{
+  background-image:url("whisky1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation:slide6 10s infinite;
+
+}
+
+@keyframes slide1{
+  0%{opacity: 1;}
+  25%{opacity: 0;}
+  75%{opacity: 0;}
+  100%{opacity: 0;}
+}
+
+@keyframes slide2{
+  0%{opacity: 0;}
+  25%{opacity: 1;}
+  75%{opacity: 0;}
+  100%{opacity: 0;}
+}
+
+@keyframes slide5{
+  0%{opacity: 0;}
+  25%{opacity: 0;}
+  50%{opacity: 1;}
+  75%{opacity: 0;}
+  100%{opacity: 0;}
+}
+
+@keyframes slide3{
+  0%{opacity: 0;}
+  25%{opacity: 0;}
+  75%{opacity: 1;}
+  100%{opacity: 0;}
+}
+
+@keyframes slide4{
+  0%{opacity: 0;}
+  25%{opacity: 0;}
+  75%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+
+
+@keyframes slide6{
+  0%{opacity: 0;}
+  25%{opacity: 0;}
+  80%{opacity: 1;}
+  100%{opacity: 0;}
+}

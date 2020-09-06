@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("Whiskey_whisky_glass.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: antiquewhite;
+  filter:sepia;
+  
+}
+
+.shake{
+    animation: shaker 12s ease-in-out infinite;
+  
+}
