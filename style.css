@@ -1,4 +1,17 @@
+.grid-container{
+  display: grid;
+  grid-template-columns:20px 1fr 20px;
+  justify-items: center;
+}
 
+.grid-container > *{
+  grid-column: 2;
+  min-width: 20;
+}
+
+.grid-container > .container .reducer{
+  grid-column: 1/-1;
+}
 body{
   margin:0;
   padding:0;
@@ -14,8 +27,13 @@ body{
 }
 
 .space{
-  height:550px;
+  height:650px;
   visibility: hidden;
+  top: 900px;
+}
+
+.text-muted{
+  text-align: center;
 }
 
 .slider1,.slider2,.slider3,.slider4{
